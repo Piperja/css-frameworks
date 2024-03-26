@@ -25,6 +25,10 @@
     --width-content: 1080px;
 }
 
+img {
+    border-radius: 10px;
+}
+
 @media (prefers-color-scheme: dark) {
     :root[color-mode="user"] {
         --color-accent: #0097fc4f;
@@ -78,7 +82,7 @@ main {
 hr {
     background-color: var(--color-bg-secondary);
     border: none;
-    height: 1px;
+    height: .5px;
     margin: 4rem 0;
     width: 100%;
 }
